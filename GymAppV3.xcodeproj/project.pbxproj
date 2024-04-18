@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53ED86252BD1C6C20097DCE3 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */; };
 		643761D42BD1B66F004FC21A /* GymAppV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643761D32BD1B66F004FC21A /* GymAppV3App.swift */; };
 		643761D82BD1B670004FC21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761D72BD1B670004FC21A /* Assets.xcassets */; };
 		643761DB2BD1B670004FC21A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761DA2BD1B670004FC21A /* Preview Assets.xcassets */; };
@@ -53,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		643761D02BD1B66F004FC21A /* GymAppV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAppV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643761D32BD1B66F004FC21A /* GymAppV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppV3App.swift; sourceTree = "<group>"; };
 		643761D72BD1B670004FC21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				64ACED242BD1B7CD004ED492 /* cameraView.swift */,
 				64ACED262BD1B7EC004ED492 /* ImagePicker.swift */,
 				64ACED282BD1B837004ED492 /* ExerciseListView.swift */,
+				53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */,
 				64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */,
 				64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */,
 				64ACED302BD1B8F8004ED492 /* CategoryRow.swift */,
@@ -323,7 +326,7 @@
 				64ACED212BD1B787004ED492 /* LoginViewViewModel.swift in Sources */,
 				64ACED1F2BD1B758004ED492 /* RegistrationActivityView.swift in Sources */,
 				64ACED1D2BD1B731004ED492 /* SignInView.swift in Sources */,
-				64ACED442BD1C2B3004ED492 /* NetworkModel.swift in Sources */,
+				53ED86252BD1C6C20097DCE3 /* NetworkModel.swift in Sources */,
 				64ACED352BD1B924004ED492 /* MuscleListView.swift in Sources */,
 				64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */,
 				64ACED232BD1B7AF004ED492 /* AuthenticationManager.swift in Sources */,

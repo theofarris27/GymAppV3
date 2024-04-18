@@ -1,10 +1,9 @@
 //
 //  NetworkModel.swift
-//  Gym App
+//  GymAppV3
 //
-//  Created by Samuel Lim on 4/12/24.
+//  Created by Luc Rathbun on 4/18/24.
 //
-
 import Foundation
 
 @Observable
