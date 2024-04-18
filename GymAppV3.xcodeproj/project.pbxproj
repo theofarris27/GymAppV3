@@ -21,7 +21,6 @@
 		64ACED252BD1B7CD004ED492 /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED242BD1B7CD004ED492 /* cameraView.swift */; };
 		64ACED272BD1B7EC004ED492 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED262BD1B7EC004ED492 /* ImagePicker.swift */; };
 		64ACED292BD1B837004ED492 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED282BD1B837004ED492 /* ExerciseListView.swift */; };
-		64ACED2B2BD1B851004ED492 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED2A2BD1B851004ED492 /* NetworkModel.swift */; };
 		64ACED2D2BD1B878004ED492 /* navigationBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */; };
 		64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */; };
 		64ACED312BD1B8F8004ED492 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED302BD1B8F8004ED492 /* CategoryRow.swift */; };
@@ -33,6 +32,7 @@
 		64ACED3E2BD1BA5E004ED492 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 64ACED3D2BD1BA5E004ED492 /* FirebaseFirestore */; };
 		64ACED402BD1BA5E004ED492 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 64ACED3F2BD1BA5E004ED492 /* FirebaseStorage */; };
 		64ACED422BD1BB72004ED492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64ACED412BD1BB71004ED492 /* GoogleService-Info.plist */; };
+		64ACED442BD1C2B3004ED492 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED432BD1C2B2004ED492 /* NetworkModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,13 +70,13 @@
 		64ACED242BD1B7CD004ED492 /* cameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraView.swift; sourceTree = "<group>"; };
 		64ACED262BD1B7EC004ED492 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		64ACED282BD1B837004ED492 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
-		64ACED2A2BD1B851004ED492 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBarTest.swift; sourceTree = "<group>"; };
 		64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		64ACED302BD1B8F8004ED492 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		64ACED322BD1B90B004ED492 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 		64ACED342BD1B924004ED492 /* MuscleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleListView.swift; sourceTree = "<group>"; };
 		64ACED412BD1BB71004ED492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64ACED432BD1C2B2004ED492 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,16 +140,16 @@
 				64ACED202BD1B787004ED492 /* LoginViewViewModel.swift */,
 				64ACED222BD1B7AF004ED492 /* AuthenticationManager.swift */,
 				64ACED242BD1B7CD004ED492 /* cameraView.swift */,
-				643761D72BD1B670004FC21A /* Assets.xcassets */,
-				643761D92BD1B670004FC21A /* Preview Content */,
 				64ACED262BD1B7EC004ED492 /* ImagePicker.swift */,
 				64ACED282BD1B837004ED492 /* ExerciseListView.swift */,
-				64ACED2A2BD1B851004ED492 /* NetworkModel.swift */,
 				64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */,
 				64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */,
 				64ACED302BD1B8F8004ED492 /* CategoryRow.swift */,
 				64ACED322BD1B90B004ED492 /* Exercise.swift */,
 				64ACED342BD1B924004ED492 /* MuscleListView.swift */,
+				643761D72BD1B670004FC21A /* Assets.xcassets */,
+				643761D92BD1B670004FC21A /* Preview Content */,
+				64ACED432BD1C2B2004ED492 /* NetworkModel.swift */,
 			);
 			path = GymAppV3;
 			sourceTree = "<group>";
@@ -323,6 +323,7 @@
 				64ACED212BD1B787004ED492 /* LoginViewViewModel.swift in Sources */,
 				64ACED1F2BD1B758004ED492 /* RegistrationActivityView.swift in Sources */,
 				64ACED1D2BD1B731004ED492 /* SignInView.swift in Sources */,
+				64ACED442BD1C2B3004ED492 /* NetworkModel.swift in Sources */,
 				64ACED352BD1B924004ED492 /* MuscleListView.swift in Sources */,
 				64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */,
 				64ACED232BD1B7AF004ED492 /* AuthenticationManager.swift in Sources */,
@@ -333,7 +334,6 @@
 				64ACED1B2BD1B710004ED492 /* ContentView.swift in Sources */,
 				64ACED272BD1B7EC004ED492 /* ImagePicker.swift in Sources */,
 				64ACED252BD1B7CD004ED492 /* cameraView.swift in Sources */,
-				64ACED2B2BD1B851004ED492 /* NetworkModel.swift in Sources */,
 				643761D42BD1B66F004FC21A /* GymAppV3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,8 +498,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GymAppV3/Preview Content\"";
+				DEVELOPMENT_TEAM = BF2DPT75LQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -526,8 +528,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GymAppV3/Preview Content\"";
+				DEVELOPMENT_TEAM = BF2DPT75LQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires it";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

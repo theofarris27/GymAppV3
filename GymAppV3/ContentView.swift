@@ -53,7 +53,7 @@ struct ContentView: View {
                                 cameraView()
                             }
                             else {
-                                ExerciseListView()
+                                
                             }
                         }.tag(tab)
                     }
