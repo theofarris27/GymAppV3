@@ -52,9 +52,7 @@ struct ContentView: View {
                             else if(tab.rawValue == "camera"){
                                 cameraView()
                             }
-                            else {
-                                ExerciseListView()
-                            }
+                            
                         }.tag(tab)
                     }
                 }

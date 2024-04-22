@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		53ED86252BD1C6C20097DCE3 /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */; };
+		53ED86272BD1C75B0097DCE3 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED86262BD1C75B0097DCE3 /* ExerciseListView.swift */; };
+		53ED86292BD1C7BC0097DCE3 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED86282BD1C7BC0097DCE3 /* CategoryRow.swift */; };
+		53ED862B2BD1C7E10097DCE3 /* MuscleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */; };
 		643761D42BD1B66F004FC21A /* GymAppV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643761D32BD1B66F004FC21A /* GymAppV3App.swift */; };
 		643761D82BD1B670004FC21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761D72BD1B670004FC21A /* Assets.xcassets */; };
 		643761DB2BD1B670004FC21A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761DA2BD1B670004FC21A /* Preview Assets.xcassets */; };
@@ -21,12 +24,9 @@
 		64ACED232BD1B7AF004ED492 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED222BD1B7AF004ED492 /* AuthenticationManager.swift */; };
 		64ACED252BD1B7CD004ED492 /* cameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED242BD1B7CD004ED492 /* cameraView.swift */; };
 		64ACED272BD1B7EC004ED492 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED262BD1B7EC004ED492 /* ImagePicker.swift */; };
-		64ACED292BD1B837004ED492 /* ExerciseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED282BD1B837004ED492 /* ExerciseListView.swift */; };
 		64ACED2D2BD1B878004ED492 /* navigationBarTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */; };
 		64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */; };
-		64ACED312BD1B8F8004ED492 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED302BD1B8F8004ED492 /* CategoryRow.swift */; };
 		64ACED332BD1B90B004ED492 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED322BD1B90B004ED492 /* Exercise.swift */; };
-		64ACED352BD1B924004ED492 /* MuscleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64ACED342BD1B924004ED492 /* MuscleListView.swift */; };
 		64ACED382BD1BA5E004ED492 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 64ACED372BD1BA5E004ED492 /* FirebaseAnalytics */; };
 		64ACED3A2BD1BA5E004ED492 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 64ACED392BD1BA5E004ED492 /* FirebaseAuth */; };
 		64ACED3C2BD1BA5E004ED492 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 64ACED3B2BD1BA5E004ED492 /* FirebaseDatabase */; };
@@ -54,6 +54,9 @@
 
 /* Begin PBXFileReference section */
 		53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
+		53ED86262BD1C75B0097DCE3 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
+		53ED86282BD1C7BC0097DCE3 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleListView.swift; sourceTree = "<group>"; };
 		643761D02BD1B66F004FC21A /* GymAppV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAppV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643761D32BD1B66F004FC21A /* GymAppV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppV3App.swift; sourceTree = "<group>"; };
 		643761D72BD1B670004FC21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,12 +73,9 @@
 		64ACED222BD1B7AF004ED492 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
 		64ACED242BD1B7CD004ED492 /* cameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraView.swift; sourceTree = "<group>"; };
 		64ACED262BD1B7EC004ED492 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
-		64ACED282BD1B837004ED492 /* ExerciseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseListView.swift; sourceTree = "<group>"; };
 		64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigationBarTest.swift; sourceTree = "<group>"; };
 		64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
-		64ACED302BD1B8F8004ED492 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		64ACED322BD1B90B004ED492 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
-		64ACED342BD1B924004ED492 /* MuscleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleListView.swift; sourceTree = "<group>"; };
 		64ACED412BD1BB71004ED492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +112,7 @@
 		643761C72BD1B66F004FC21A = {
 			isa = PBXGroup;
 			children = (
+				53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */,
 				643761D22BD1B66F004FC21A /* GymAppV3 */,
 				643761E32BD1B671004FC21A /* GymAppV3Tests */,
 				643761ED2BD1B671004FC21A /* GymAppV3UITests */,
@@ -143,13 +144,12 @@
 				643761D72BD1B670004FC21A /* Assets.xcassets */,
 				643761D92BD1B670004FC21A /* Preview Content */,
 				64ACED262BD1B7EC004ED492 /* ImagePicker.swift */,
-				64ACED282BD1B837004ED492 /* ExerciseListView.swift */,
 				53ED86242BD1C6C20097DCE3 /* NetworkModel.swift */,
+				53ED86262BD1C75B0097DCE3 /* ExerciseListView.swift */,
 				64ACED2C2BD1B878004ED492 /* navigationBarTest.swift */,
 				64ACED2E2BD1B8C7004ED492 /* StorageManager.swift */,
-				64ACED302BD1B8F8004ED492 /* CategoryRow.swift */,
 				64ACED322BD1B90B004ED492 /* Exercise.swift */,
-				64ACED342BD1B924004ED492 /* MuscleListView.swift */,
+				53ED86282BD1C7BC0097DCE3 /* CategoryRow.swift */,
 			);
 			path = GymAppV3;
 			sourceTree = "<group>";
@@ -323,17 +323,17 @@
 				64ACED212BD1B787004ED492 /* LoginViewViewModel.swift in Sources */,
 				64ACED1F2BD1B758004ED492 /* RegistrationActivityView.swift in Sources */,
 				64ACED1D2BD1B731004ED492 /* SignInView.swift in Sources */,
+				53ED862B2BD1C7E10097DCE3 /* MuscleListView.swift in Sources */,
 				53ED86252BD1C6C20097DCE3 /* NetworkModel.swift in Sources */,
-				64ACED352BD1B924004ED492 /* MuscleListView.swift in Sources */,
 				64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */,
 				64ACED232BD1B7AF004ED492 /* AuthenticationManager.swift in Sources */,
+				53ED86292BD1C7BC0097DCE3 /* CategoryRow.swift in Sources */,
 				64ACED332BD1B90B004ED492 /* Exercise.swift in Sources */,
 				64ACED2D2BD1B878004ED492 /* navigationBarTest.swift in Sources */,
-				64ACED312BD1B8F8004ED492 /* CategoryRow.swift in Sources */,
-				64ACED292BD1B837004ED492 /* ExerciseListView.swift in Sources */,
 				64ACED1B2BD1B710004ED492 /* ContentView.swift in Sources */,
 				64ACED272BD1B7EC004ED492 /* ImagePicker.swift in Sources */,
 				64ACED252BD1B7CD004ED492 /* cameraView.swift in Sources */,
+				53ED86272BD1C75B0097DCE3 /* ExerciseListView.swift in Sources */,
 				643761D42BD1B66F004FC21A /* GymAppV3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
