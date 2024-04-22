@@ -5,11 +5,14 @@
 
 import Foundation
 import SwiftUI
+import FirebaseStorage
+import FirebaseFirestore
 
 class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     @Binding var image: UIImage?
     @Binding var isShown: Bool
+    
     
     init(image: Binding<UIImage?>, isShown: Binding<Bool>) {
         _image = image
@@ -56,5 +59,6 @@ struct ImagePicker: UIViewControllerRepresentable {
         return picker
         
     }
+    
     
 }

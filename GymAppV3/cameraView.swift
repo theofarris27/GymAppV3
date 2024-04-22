@@ -4,9 +4,20 @@
 //
 
 import SwiftUI
+import FirebaseStorage
+import FirebaseFirestore
 
 struct cameraView: View {
     
+    func uploadPhoto() {
+        let storageRef = Storage.storage().reference()
+        let imageData = image?.jpegData(compressionQuality: 0.8)
+        guard imageData != nil else {
+            return
+        }
+        let fileRef = storageRef.child("images/\(UUID().uuidString).jpg")
+        fileRef.putData(imageData!, metadata: nil)
+    }
     
     
     @State private var showSheet: Bool = false
@@ -24,7 +35,11 @@ struct cameraView: View {
                 Image(uiImage: image ?? UIImage(named: "hyunjun")!)
                     .resizable()
                     .frame(width: 600, height: 450)
-                
+                Button {
+                    uploadPhoto()
+                } label: {
+                     Text("upload chosen photo")
+                }
                 Button("Choose Picture") {
                     self.showSheet = true
                 }.padding()
@@ -42,6 +57,8 @@ struct cameraView: View {
                         ])
                 }
                 
+               
+                
             }
                 
                 
@@ -52,6 +69,8 @@ struct cameraView: View {
         }
     }
 }
+
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
