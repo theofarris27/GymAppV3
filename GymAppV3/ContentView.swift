@@ -52,6 +52,9 @@ struct ContentView: View {
                             else if(tab.rawValue == "camera"){
                                 cameraView()
                             }
+                            else {
+                                NavigationLinkView()
+                            }
                             
                         }.tag(tab)
                     }

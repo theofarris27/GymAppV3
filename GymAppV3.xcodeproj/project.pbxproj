@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		53ED862B2BD1C7E10097DCE3 /* MuscleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */; };
 		643761D42BD1B66F004FC21A /* GymAppV3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643761D32BD1B66F004FC21A /* GymAppV3App.swift */; };
 		643761D82BD1B670004FC21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761D72BD1B670004FC21A /* Assets.xcassets */; };
 		643761DB2BD1B670004FC21A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643761DA2BD1B670004FC21A /* Preview Assets.xcassets */; };
@@ -56,7 +55,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleListView.swift; sourceTree = "<group>"; };
 		643761D02BD1B66F004FC21A /* GymAppV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymAppV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		643761D32BD1B66F004FC21A /* GymAppV3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymAppV3App.swift; sourceTree = "<group>"; };
 		643761D72BD1B670004FC21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 		643761C72BD1B66F004FC21A = {
 			isa = PBXGroup;
 			children = (
-				53ED862A2BD1C7E10097DCE3 /* MuscleListView.swift */,
 				643761D22BD1B66F004FC21A /* GymAppV3 */,
 				643761E32BD1B671004FC21A /* GymAppV3Tests */,
 				643761ED2BD1B671004FC21A /* GymAppV3UITests */,
@@ -341,7 +338,6 @@
 				64ACED1F2BD1B758004ED492 /* RegistrationActivityView.swift in Sources */,
 				64ACED1D2BD1B731004ED492 /* SignInView.swift in Sources */,
 				F00D54F92BD9B083008A7209 /* Exercise.swift in Sources */,
-				53ED862B2BD1C7E10097DCE3 /* MuscleListView.swift in Sources */,
 				F00D54F72BD9B056008A7209 /* CategoryHome.swift in Sources */,
 				64ACED2F2BD1B8C7004ED492 /* StorageManager.swift in Sources */,
 				64ACED232BD1B7AF004ED492 /* AuthenticationManager.swift in Sources */,
