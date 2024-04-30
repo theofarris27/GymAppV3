@@ -12,7 +12,7 @@ struct RegistrationActivityView: View {
     @State private var userName: String = ""
     @State private var password: String = ""
     @State private var showPassword: Bool = false
-    @Binding var signInSuccess: Bool
+//    @Binding var signInSuccess: Bool
     @State private var showError = false
     @StateObject var viewModel = LoginViewViewModel()
     var isSignInButtonDisabled: Bool {
@@ -73,7 +73,7 @@ struct RegistrationActivityView: View {
             
             Button {
                 viewModel.createUser()
-                
+               
             } label: {
                 Text("Register")
                     .font(.title2)

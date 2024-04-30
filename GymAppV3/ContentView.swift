@@ -19,7 +19,6 @@ struct ContentView: View {
     @State var showSheet1 = false
     @State var showSheet2 = false
     
-    
     init() {
         UITabBar.appearance().isHidden = true
     }
@@ -31,32 +30,14 @@ struct ContentView: View {
                     ForEach(Tab.allCases, id: \.rawValue) { tab in
                         
                         VStack{
-                            if(tab.rawValue == "leaf") {
-                                Button {
-                                    showSheet1 = true
-                                } label: {
-                                    Text("Click Here to Sign In")
-                                }
-                                .sheet(isPresented: $showSheet1, content: {
-                                    SignInView(signedIn: $signInSuccess)
-                                })
-                                Button {
-                                    showSheet2 = true
-                                } label: {
-                                    Text("Click Here to Register")
-                                }
-                                .sheet(isPresented: $showSheet2, content: {
-                                    RegistrationActivityView(signInSuccess: $signInSuccess)
-                                })
-                            }
-                            else if(tab.rawValue == "camera"){
-                                cameraView()
-                            }
-                            else {
+                             if(tab.rawValue == "home"){
                                 NavigationLinkView()
                             }
-                            
-                        }.tag(tab)
+                            else if(tab.rawValue == "camera") {
+                                cameraView()
+                            }
+                        }
+                            .tag(tab)
                     }
                 }
             }

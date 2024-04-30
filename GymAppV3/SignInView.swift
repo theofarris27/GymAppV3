@@ -13,6 +13,7 @@ struct SignInView: View {
     @State var showPassword: Bool = false
     @State var signInSuccess = false
     @State var showView = false
+    @State var showSheet = false
     var isSignInButtonDisabled: Bool {
         [viewModel.email, viewModel.password].contains(where: \.isEmpty)
       }
@@ -20,7 +21,6 @@ struct SignInView: View {
     
     var body: some View {
         VStack{
-            Spacer()
             Text("Sign In")
                 .font(.largeTitle)
             TextField("Name",
@@ -34,7 +34,7 @@ struct SignInView: View {
             }
             
             .padding(15)
-           
+            
             HStack {
                 Group {
                     
@@ -59,7 +59,7 @@ struct SignInView: View {
                     RoundedRectangle(cornerRadius: 8)
                         .stroke(.red, lineWidth: 2) // How to add rounded corner to a TextField and change it colour
                 }
-             
+                
                 
                 Button {
                     showPassword.toggle()
@@ -75,7 +75,7 @@ struct SignInView: View {
             
             Button {
                 viewModel.login()
-                
+                GymAppV3App.signedIn = true
             } label: {
                 Text("Sign In")
                     .font(.title2)
@@ -92,9 +92,14 @@ struct SignInView: View {
             .cornerRadius(15)
             .disabled(isSignInButtonDisabled) // how to disable while some condition is applied
             .padding()
-            Spacer()
+            Button {
+                showSheet = true
+            } label: {
+                Text("Click Here To Regsiter")
+            }.sheet(isPresented: $showSheet, content: {
+                RegistrationActivityView()
+            })
         }
-        
     }
 }
 
