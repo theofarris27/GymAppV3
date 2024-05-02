@@ -22,6 +22,7 @@ struct authDataResultModel {
 }
 
 final class AuthenticationManager {
+    
     static let shared = AuthenticationManager()
     private init() {}
     

@@ -15,9 +15,7 @@ struct ContentView: View {
     @StateObject var viewModel = LoginViewViewModel()
     @State var showPassword: Bool = false
     @State var signInSuccess = false
-    @State var showView = false
-    @State var showSheet1 = false
-    @State var showSheet2 = false
+    @State var showView : Bool = true
     
     init() {
         UITabBar.appearance().isHidden = true
@@ -28,16 +26,19 @@ struct ContentView: View {
             VStack{
                 TabView(selection: $selectedTab) {
                     ForEach(Tab.allCases, id: \.rawValue) { tab in
-                        
                         VStack{
-                             if(tab.rawValue == "home"){
+                             if(tab.rawValue == "house"){
                                 NavigationLinkView()
                             }
                             else if(tab.rawValue == "camera") {
                                 cameraView()
                             }
                         }
-                            .tag(tab)
+                        .tag(tab)
+                        .sheet(isPresented: $showView, content: {
+                            SignInView(signedIn: $signInSuccess)
+                        })
+                        
                     }
                 }
             }

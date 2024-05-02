@@ -19,12 +19,9 @@ static var signedIn = false
     
     var body: some Scene {
         WindowGroup {
-            if(GymAppV3App.signedIn) {
-                SignInView(signedIn: $signIn)
-            }
-            else {
                 ContentView()
-            }
         }
     }
 }
+
+

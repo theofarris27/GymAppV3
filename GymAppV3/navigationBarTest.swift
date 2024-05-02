@@ -10,7 +10,6 @@ import SwiftUI
 enum Tab: String, CaseIterable {
     case camera
     case house
-    case leaf
 }
 
 struct navigationBarTest: View {

@@ -70,12 +70,9 @@ struct SignInView: View {
                 
             }.padding(.horizontal)
             
-            
-            
-            
+        
             Button {
                 viewModel.login()
-                GymAppV3App.signedIn = true
             } label: {
                 Text("Sign In")
                     .font(.title2)

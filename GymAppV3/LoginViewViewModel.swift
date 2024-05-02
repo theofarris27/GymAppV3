@@ -41,8 +41,6 @@ class LoginViewViewModel: ObservableObject {
         Task {
             do {
                 let returnedUserData = try AuthenticationManager.shared.getAuthenticatedUser()
-                print("logged in")
-                print(returnedUserData)
             } catch {
             }
         }
